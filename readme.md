@@ -4,6 +4,7 @@
 ir paskaiciuoja sienu plota.
 2. padaryti kad sienu plota funkcija grazintu
 3. paskaiciuoti triju skirtingu kambariu sienu plotus ir juos atspausdinti i html su pries tai aprasyta funkcija.
+4. parasyti funkcija kuri priima argumentu apskritimo skersmeni ir apskaiciuoja ir grazina apskirtimo plota. PI*r*r. isbandyti ir paziurti ar veikia su keletu reikmiu
 
 
 

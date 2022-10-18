@@ -29,4 +29,18 @@ let skaicius = '500';
 
 function makeCurrency(el) {
   // typeof
+  if (typeof el === 'string') return 'ne skaicius';
+
+  if (typeof el === 'number') return `${el.toFixed(2)} eur`;
+
+  return 'nei skaicius nei stringas';
 }
+
+let rezultatas = makeCurrency(skaicius);
+console.log('rezultatas ===', rezultatas);
+
+rezultatas = makeCurrency(45);
+console.log('rezultatas ===', rezultatas);
+
+rezultatas = makeCurrency(true);
+console.log('rezultatas ===', rezultatas);
