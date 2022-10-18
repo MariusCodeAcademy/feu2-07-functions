@@ -82,8 +82,20 @@ makeH2El('Labukas');
 makeH2El('Sveiki ');
 makeH2El('kaip sekasi su funkcijom');
 makeH2El('ka ???');
-
+// debugger;
 // sukurti funkcija kurti isveda vidurki is gautu 3 parametru
+function getAvg(n1, n2, n3) {
+  let total = n1 + n2 + n3;
+  let avg = total / 3;
+  let avgRounded = +avg.toFixed(2);
+  console.log('avg ===', avgRounded);
+  makeH2El(`vidurkis yra ${avgRounded}`);
+}
+
 // ir atspausdina ji htmle, panaudojant makeH2El()
 // su isklotine
 // panaudoti su keletu reiksmiu
+
+getAvg(1, 2, 3);
+getAvg(10, 12, 30);
+// console.log('avgRounded ===', avgRounded); // undefinded
