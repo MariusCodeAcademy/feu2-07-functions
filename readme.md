@@ -4,3 +4,12 @@
 ir paskaiciuoja sienu plota.
 2. padaryti kad sienu plota funkcija grazintu
 3. paskaiciuoti triju skirtingu kambariu sienu plotus ir juos atspausdinti i html su pries tai aprasyta funkcija.
+
+
+
+## return uzdaviniai
+
+1. parasyti funkcija multi kuri sudaugina pirma parametra su antru ir grazina 
+2. parasyti funkcija divide kuri padalina pirma parametra is antro ir grazina 
+3. parasyti funkcija avg kuri gauna 2 parametrus ir grazina ju vidurki
+4. parasyti funkcija flow() kurioje sudedam visu auksiau aprasytu funkciju rezultatus ir grazinam ir ispausdinam konsoleje.  
