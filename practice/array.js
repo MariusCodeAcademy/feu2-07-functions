@@ -20,3 +20,13 @@ function getPositivesArr(fullArray) {
 
 let teigiami = getPositivesArr(nums1);
 console.log('teigiami ===', teigiami);
+
+let skaicius = '500';
+
+// parasyti funkcija kuri patikrina ar argumentas yra string tipo
+// jei string, tai grazina kad tai 'ne skaicius'
+// jei skaiciau tipo kintamasis tai paveria i valiuta 50 => 50.00 eur
+
+function makeCurrency(el) {
+  // typeof
+}
