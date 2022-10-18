@@ -27,4 +27,14 @@ function init() {
 
   showAverage(sum1, sum2, sum3);
 }
-init();
+// init();
+
+console.log('init ===', init);
+// extra higer order funcion
+function runOtherFn(fnToRun) {
+  console.log('Dabar tuoj paleisiu funkcija');
+  fnToRun();
+  console.log('funkcijos pabaiga');
+}
+
+runOtherFn(init);
